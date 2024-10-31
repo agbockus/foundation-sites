@@ -170,8 +170,8 @@ class AccordionMenu extends Plugin {
           if (_this.options.submenuToggle) {
             return false;
           }
-          if ($element.children('[data-submenu]').length) {
-            _this.toggle($element.children('[data-submenu]'));
+          if ($target.children('[data-submenu]').length) {
+            _this.toggle($target.children('[data-submenu]'));
             return true;
           }
         },
